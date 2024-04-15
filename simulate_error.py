@@ -15,7 +15,7 @@ TEST_DATA = [
 ]
 
 
-def sum_variables(list_variable: list [int]) -> int:
+def sum_variables(list_variable: list[int]) -> int:
     '''Возвращает сумму переменных.'''
     try:
         return sum(list_variable)
